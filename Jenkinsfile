@@ -11,7 +11,7 @@ pipeline {
       steps {
         echo 'iniciando teste'
         sleep 5
-        build(job: 'jenkins-principal', propagate: true)
+        build(job: 'teste', propagate: true)
       }
     }
 
