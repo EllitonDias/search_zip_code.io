@@ -20,7 +20,7 @@ pipeline {
         branch 'main'
       }
       steps {
-        input 'Espera pela confirmação'
+        input 'Espera pela confirmaÃ§Ã£o'
         echo 'iniciando deploy'
       }
     }
